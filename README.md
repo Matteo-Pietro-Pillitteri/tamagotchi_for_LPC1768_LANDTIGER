@@ -11,7 +11,7 @@ If the allowed coordinates are allowed the Timer3 is enabled. It is initialized 
 When a match register interrupts a heart in the right position is displayed using the function Draw_Heart that draw the figure thanks to LCD_SetPoint function. The GLCD.c file implements the Draw_Heart function. 
 The latter match register allows to increase the happines level using Increase_Satiety_Or_Happiness (simple function used also in the fist extrapoint).
 -	Technical details:
--	Library retrived by the course materials and usefull for the cuddles animation: 
+ Library retrived by the course materials and usefull for the cuddles animation: 
 
 1)	06_sample_TIMER_2: it allows an advanced management of times (optional parametres like match register, use of prescaler and match register configuration)
 2)	12_sample_GLCD_TP: it contains the TouchPanel library that is necessary for the initialization and calibration of the touch screen provided by the board. It contains the function TP_Init() and TouchPanel_Calibrate().
